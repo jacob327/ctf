@@ -1,0 +1,27 @@
+## OS
+*.DS_Store
+*.localized
+*._*
+
+## vim
+*.swp
+*.swo
+*.directory
+*~
+
+# log files
+*.log
+*log/
+/dev/**/log/
+*.opendb
+
+## libraries
+node_modules/
+
+## c++
+build/
+*.ipch
+
+## rust
+target/
+
